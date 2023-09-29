@@ -1,4 +1,4 @@
 package com.example.tarea.Repositories;
 
-public interface ComentarioRepository {
+public interface ComentarioRepository extends JpaRespository<Usuario, Long> {
 }
